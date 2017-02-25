@@ -1,0 +1,20 @@
+[submodule "src/poky"]
+	path = src/poky
+	url = git://git.yoctoproject.org/poky.git
+	branch = morty
+[submodule "src/meta-openembedded"]
+	path = src/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+	branch = morty
+[submodule "src/meta-raspberrypi"]
+	path = src/meta-raspberrypi
+	url = git://git.yoctoproject.org/meta-raspberrypi
+	branch = morty
+[submodule "src/meta-rpi"]
+	path = src/meta-rpi
+	url = git://github.com/jumpnow/meta-rpi
+	branch = morty
+[submodule "src/meta-qt5"]
+	path = src/meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5.git
+	branch = morty
