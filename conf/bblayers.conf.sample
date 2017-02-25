@@ -9,8 +9,12 @@ BBLAYERS ?= " \
   ##OEROOT##/meta \
   ##OEROOT##/meta-poky \
   ##OEROOT##/meta-yocto-bsp \
-  ##OEROOT##/../meta-openembedded \
+  ##OEROOT##/../meta-openembedded/meta-oe \
+  ##OEROOT##/../meta-openembedded/meta-multimedia \
+  ##OEROOT##/../meta-openembedded/meta-networking \
+  ##OEROOT##/../meta-openembedded/meta-python \
   ##OEROOT##/../meta-qt5 \
+  ##OEROOT##/../meta-ros \
   ##OEROOT##/../meta-raspberrypi \
   ##OEROOT##/../meta-rpi \
   "
